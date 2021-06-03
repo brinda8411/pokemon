@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+body{
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.heading
+{
+font-family: 'Permanent Marker', cursive;
+font-size: 3rem;
+}
+.content
+{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 1px;
+}
+.box{
+  display: flex;
+  flex-direction:row;
+  border: 0.25rem solid rgb(110, 150, 31);
+  align-items: center;
+  justify-content: center;
+  line-height: 10rem;
+  box-shadow: 10px 10px 5px #647517;
+ width:350px;
+ height:200px;
+ margin : 50px auto;
+ padding: 4px 0.5px;
+ cursor: pointer;
+}
+.name
+{
+  font-family: 'Concert One', cursive;
+  font-size:2rem;
+  color: #4f5e0e;
+}
+.myimg{
+  height: 10rem;
+  width: 15rem;
+  
+}
